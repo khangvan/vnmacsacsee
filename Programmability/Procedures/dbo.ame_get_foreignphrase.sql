@@ -1,0 +1,12 @@
+﻿SET QUOTED_IDENTIFIER, ANSI_NULLS OFF
+GO
+CREATE PROCEDURE [dbo].[ame_get_foreignphrase] 
+@phrasekey char(20)
+ AS
+set nocount on
+
+
+
+select PHRASE_KEY, PHRASE_STATION, PHRASE_DESCRIPTION, PHRASE_TYPE,PHRASE_ENGLISH, PHRASE_FOREIGN 
+from PHRASETRANSLATE where PHRASE_KEY = @phrasekey
+GO

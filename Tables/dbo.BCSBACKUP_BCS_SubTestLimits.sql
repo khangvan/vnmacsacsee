@@ -1,0 +1,30 @@
+﻿CREATE TABLE [dbo].[BCSBACKUP_BCS_SubTestLimits] (
+  [STEP_ID] [int] NOT NULL,
+  [Station_Name] [char](120) NOT NULL,
+  [SubTest_Name] [char](120) NOT NULL,
+  [SAP_Model_Name] [char](120) NOT NULL,
+  [SAP_MODEL_ID] [int] NULL,
+  [Limit_Type] [char](1) NOT NULL,
+  [UL] [float] NULL,
+  [LL] [float] NULL,
+  [strLimit] [char](140) NULL,
+  [flgLimit] [char](1) NULL,
+  [Units] [char](110) NULL,
+  [Description] [char](150) NULL,
+  [Author] [char](125) NULL,
+  [ACSEEMode] [int] NOT NULL,
+  [SPCParm] [char](1) NULL,
+  [Hard_UL] [float] NULL,
+  [Hard_LL] [float] NULL,
+  [Limit_Date] [datetime] NOT NULL,
+  [ProductGroup_Mask] [int] NULL,
+  [Limit_ID] [int] IDENTITY (4359, 1),
+  [Note_ID] [int] NULL,
+  [OpportunitiesforFail] [int] NULL,
+  [flgForFailure] [int] NULL,
+  [flgFirstOnly] [int] NULL,
+  [DoAlways] [int] NULL,
+  [SkipInOrt] [int] NULL
+)
+ON [PRIMARY]
+GO

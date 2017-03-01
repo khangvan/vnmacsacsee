@@ -1,0 +1,8 @@
+﻿SET QUOTED_IDENTIFIER, ANSI_NULLS ON
+GO
+
+CREATE PROCEDURE [dbo].[NewSelectCommand]
+AS
+	SET NOCOUNT ON;
+SELECT Action_Count, Description FROM Actions
+GO

@@ -1,0 +1,9 @@
+﻿CREATE TABLE [dbo].[TRN_STLID_mapping] (
+  [TRNLOGSTL_ID] [int] IDENTITY,
+  [TRNSTL_ID] [int] NULL,
+  [DB1STL_ID] [int] NULL,
+  [Transfer_Time] [datetime] NULL,
+  CONSTRAINT [PK_TRN_STLID_mapping] PRIMARY KEY CLUSTERED ([TRNLOGSTL_ID]) WITH (FILLFACTOR = 80)
+)
+ON [PRIMARY]
+GO

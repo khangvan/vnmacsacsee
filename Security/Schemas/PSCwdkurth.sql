@@ -1,0 +1,2 @@
+﻿CREATE SCHEMA [PSC\wdkurth] AUTHORIZATION [PSC\wdkurth]
+GO

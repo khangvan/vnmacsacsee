@@ -1,0 +1,3 @@
+﻿CREATE USER [dpjordan]
+  WITHOUT LOGIN
+GO

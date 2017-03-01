@@ -1,0 +1,3 @@
+﻿CREATE USER [srbonafede]
+  WITHOUT LOGIN
+GO

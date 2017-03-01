@@ -1,0 +1,11 @@
+﻿SET QUOTED_IDENTIFIER, ANSI_NULLS OFF
+GO
+CREATE PROCEDURE  [dbo].[ame_TFFC_GetKickerSpecifcEntry]
+@model char(20)
+AS
+set nocount on
+select TFFC_KICKER_ID, TFFC_KICKER_Station, TFFC_KICKER_Model, TFFC_KICKER_TestType, TFFC_KICKER_RunPath, 
+TFFC_KICKER_DBPath, 
+TFFC_KICKER_SerialPortConfig, TFFC_KICKER_QBUDDIES, TFFC_KICKER_Rework
+from TFFC_KICKER_TABLE where TFFC_KICKER_Model = @model
+GO

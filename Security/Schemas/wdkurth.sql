@@ -1,0 +1,2 @@
+﻿CREATE SCHEMA [wdkurth] AUTHORIZATION [wdkurth]
+GO

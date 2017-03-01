@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[Stage_Notes] (
+  [STAGENOTE_ID] [int] IDENTITY,
+  [STAGENOTE_User] [char](50) NULL,
+  [STAGENOTE_Note] [char](2000) NULL,
+  CONSTRAINT [PK_Stage_Notes] PRIMARY KEY CLUSTERED ([STAGENOTE_ID])
+)
+ON [PRIMARY]
+GO

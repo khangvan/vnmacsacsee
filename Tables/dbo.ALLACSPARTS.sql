@@ -1,0 +1,13 @@
+﻿CREATE TABLE [dbo].[ALLACSPARTS] (
+  [ALLACSPARTS_ID] [int] IDENTITY,
+  [ALLACSPARTS_Part_Number] [nchar](20) NULL,
+  [ALLACSPARTS_ACSTYPE] [nchar](5) NULL,
+  [ALLACSPARTS_Description] [nchar](50) NULL,
+  [ALLACSPARTS_OldCalcType] [nchar](5) NULL,
+  [ALLACSPARTS_NewCalcType] [nchar](5) NULL,
+  [ALLACSPARTS_NewNewCalcType] [nchar](5) NULL,
+  [ALLACSPARTS_Allcalctype] [nchar](5) NULL,
+  CONSTRAINT [PK_ALLACSPARTS] PRIMARY KEY CLUSTERED ([ALLACSPARTS_ID]) WITH (FILLFACTOR = 90)
+)
+ON [PRIMARY]
+GO

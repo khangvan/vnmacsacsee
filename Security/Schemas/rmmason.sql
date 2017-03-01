@@ -1,0 +1,2 @@
+﻿CREATE SCHEMA [rmmason] AUTHORIZATION [rmmason]
+GO

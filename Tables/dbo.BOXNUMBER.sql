@@ -1,0 +1,11 @@
+﻿CREATE TABLE [dbo].[BOXNUMBER] (
+  [BOXNUMBER_ID] [int] IDENTITY,
+  [BOXNUMBER_Value] [char](20) NULL,
+  [BOXNUMBER_Date] [datetime] NULL,
+  [BOXNUMBER_ReserveDate] [datetime] NULL,
+  [BOXNUMBER_ConsumeDate] [datetime] NULL,
+  [BOXNUMBER_Notes] [varchar](80) NULL,
+  CONSTRAINT [PK_BOXNUMBER] PRIMARY KEY CLUSTERED ([BOXNUMBER_ID]) WITH (FILLFACTOR = 80)
+)
+ON [PRIMARY]
+GO

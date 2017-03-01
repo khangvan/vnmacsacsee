@@ -1,0 +1,2 @@
+﻿CREATE SCHEMA [wkadmin] AUTHORIZATION [wkadmin]
+GO
